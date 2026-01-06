@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useAppContext } from '../context/appContext'
+import { useAppContext } from '../context/AppContext'
 import { blogCategories } from '../assets/assets'
 import BlogCard from './BlogCard'
 import { motion } from 'framer-motion'
