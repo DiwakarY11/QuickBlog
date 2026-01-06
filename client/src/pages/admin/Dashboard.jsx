@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { assets } from '../../assets/assets'
 import BlogTableItem from '../../components/BlogTableItem'
-import { useAppContext } from '../../context/appContext'
+import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
 
 const Dashboard = () => {
